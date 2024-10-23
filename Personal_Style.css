@@ -1,0 +1,190 @@
+.full-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E7CCCC;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #bb9b9b;
+    color: #7d3333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*navbar part*/
+.navbar {
+    background-color: #7d3333;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.navbar-text {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar-text:hover {
+    background-color: #ddd;
+    color: #7d3333;
+}
+
+/*about me part*/
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}   
+
+.personal-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+}
+
+.about-details {
+    flex-direction: column;
+    margin: 0;
+    font-size: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons-img {
+    width: 30px;
+    height: 30px;
+}
+
+/*work experience*/
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #7d3333;
+    border-radius: 10px;
+    padding: 20px;
+    color: #e4c1c1;
+}
+
+.portfolio-item:hover {
+    background-color: #c09d9d;
+    color: #7d3333;
+}
+
+.portfolio-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+/*research part*/
+.research-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.research-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#7d3333;
+    color: #e4c1c1;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: row;
+}
+.research-item:hover {
+    background-color: #c09d9d;
+    color: #7d3333;
+}
+
+.research-image {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/*skill bar*/
+.skills-section {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.skill-bar-wrapper {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: #7a5b5b;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #deb5b5;
+}
+
+.skill-bar {
+    height: 100%;
+    width: 0;
+    background-color: #7d3333;
+    transition: width 2s ease;
+}
+
+.skill-percentage {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
